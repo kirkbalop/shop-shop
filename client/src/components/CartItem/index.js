@@ -1,11 +1,15 @@
 import React from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
-import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
+import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/redux/actions";
 import { idbPromise } from '../../utils/helpers';
+import { unusedVariableMessage } from 'graphql/validation/rules/NoUnusedVariables';
+import { useSelector, useDispatch } from "react-redux";
 
 const CartItem = ({ item }) => {
 
-  const [, dispatch] = useStoreContext();
+  // const [, dispatch] = useStoreContext();
+  const state = useSelector((state) => state);
+  const dispatch = useDispatch();
 
   const removeFromCart = item => {
     dispatch({

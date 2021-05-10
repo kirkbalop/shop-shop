@@ -88,6 +88,8 @@ export const reducer = (state, action) => {
     }
 };
 
+// The function useProductReduce initializes global state object and then provides functionality
+// to update state via the custom reducer function.
 export function useProductReducer(initialState){
     return useReducer(reducer, initialState);
 }
