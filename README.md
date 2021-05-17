@@ -8,8 +8,8 @@ Shop Shop is an application designed for online shoppers to procure any of a mul
 
 ## Tech
 
--MERN Stack
--Redux
+- MERN Stack
+- Redux
 
 ---
 
@@ -22,5 +22,5 @@ https://kirkbalop.github.io/shop-shop/
 ## Questions?
 
 Feel free to contact me via:
--Email: Kirkbalop@gmail.com
--Github: https://github.com/kirkbalop
+- Email: Kirkbalop@gmail.com
+- Github: https://github.com/kirkbalop
