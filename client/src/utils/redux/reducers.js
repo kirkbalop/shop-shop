@@ -72,7 +72,7 @@ export const reducer = (state = initialState, action) => {
                     return product;
                 }),
             };
-
+        
             case CLEAR_CART:
                 return {
                     ...state,
